@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url("	https://img.freepik.com/free-photo/3d-rendering-cinema-teather_23-2151169422.jpg");
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.filter {
+    width: 200px;
+}
+
+.filter label {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.table-bordered {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table-bordered th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-bordered tr {
+    background-color: #ddd;
+}

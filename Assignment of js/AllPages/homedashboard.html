@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Movies</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/homedashboard.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Ticket Management System</a>
+            </div>
+            <ul class="nav navbar-nav">
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../MovieDashboard.html"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
+            </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Available Movie Shows</h2>
+        <div class="filter">
+            <label for="filterDate">Select Date:</label>
+            <input type="date" id="filterDate" class="form-control">
+        </div>
+        <table class="table table-bordered" id="movieTable">
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Number of Seats</th>
+                    <th>Movie Date</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Available Seats</th>
+                    <th>Book Show</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="../assets/js/homedashboard.js"></script>
+</body>
+
+</html>

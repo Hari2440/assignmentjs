@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body>
+    <section>
+        <div class="Fields">
+            <div class="header">
+                <h2>create account</h2>
+            </div>
+            <form class="form" id="form">
+                <div class="inputFields">
+                    <label><strong>Name</strong></label>
+                    <input type="text" placeholder="Your name" id="firstName" maxlength="20">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="inputFields">
+                    <label><strong>Email</strong></label>
+                    <input type="email" placeholder="E-mail" id="mail" title="Email must be a valid Type">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="inputFields">
+                    <label><strong>Password</strong></label>
+                    <input type="password" placeholder="Password" id="password"
+                        title="Password must Be Strong Which Includes Uppercase,Lowercase and Special Symbols.">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <div class="inputFields">
+                    <label><strong>Confirm Password</strong></label>
+                    <input type="password" placeholder="Confirm Password" id="confirmPassword">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small></small>
+                </div>
+                <button>Submit</button>
+            </form>
+            <p>Already have an account? <a href="../AllPages/login.html">Login</a></p>
+        </div>
+    </section>
+    <script src="../assets/js/signup.js"></script>
+</body>
+
+</html>

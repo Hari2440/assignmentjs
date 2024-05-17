@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-vector/movie-theater-with-white-screen-curtains-seats_107791-15967.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100VH;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fields {
+    background-color: #fff;
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.578);
+}
+
+.header h2 {
+    background-color: #f7f7f7;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.inputFields {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.inputFields label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.inputFields input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.inputFields i {
+    position: absolute;
+    cursor: pointer;
+    color: #0000;
+    top: 43px;
+    right: 10px;
+}
+
+.inputFields small {
+    position: absolute;
+    visibility: hidden;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+}
+
+.inputFields.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form button {
+    background-color: #6c23f2;
+    border: 2px solid #b5b5f1;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+
+.Fields p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

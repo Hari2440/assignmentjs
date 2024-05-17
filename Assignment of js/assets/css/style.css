@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("	https://wallpapers.com/images/hd/movie-theater-pictures-1920-x-1080-1pu7x6jkz45hg0hh.jpg");
+    background-size: cover;
+    font-family: 'poppinsregular', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.Fields {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(37, 2, 2, 0.888);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.header h2 {
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    margin: 0;
+    text-transform: capitalize;
+    background-color: #f7f7f7;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.inputFields {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.inputFields label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.inputFields input {
+    border: 2px solid #f0f0f0;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    display: block;
+}
+
+.inputFields i {
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+    right: 10px;
+}
+
+.inputFields small {
+    position: absolute;
+    visibility: hidden;
+    font-size: 12px;
+    bottom: 0;
+    left: 0;
+}
+
+.inputFields.error small {
+    visibility: visible;
+    color: #ee5645;
+}
+
+.form button {
+    background-color: #8023f2;
+    border: 2px solid #b6adf0;
+    border-radius: 4px;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.inputFields.error input {
+    border: 2px solid #e74c3c;
+}
+
+.Fields p {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

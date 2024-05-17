@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment</title>
+  <link rel="stylesheet" href="../assets/css/login.css" />
+</head>
+
+<body>
+  <section>
+    <div class="Fields">
+      <div class="header">
+        <h2>User Login</h2>
+      </div>
+      <form class="form" id="form">
+        <div class="inputFields">
+          <label><strong>Email</strong></label>
+          <input type="text" id="mail"  placeholder="Email">
+          <small></small>
+        </div>
+        <div class="inputFields">
+          <label><strong>Password</strong></label>
+          <input type="password" placeholder="Password" id="password">
+          <i class="fa-solid fa-eye-slash" id="hidePassword"></i>
+          <i class="fa-solid fa-eye" id="showPassword" style="display: none;"></i>
+          <small></small>
+        </div>
+        <button>login</button>
+      </form>
+      <p>Don't have an account? <a href="../AllPages/signup.html">Create one.</a></p>
+    </div>
+  </section>
+  <script src="../assets/js/Login.js"></script>
+</body>
+
+</html>
